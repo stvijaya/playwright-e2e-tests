@@ -1,0 +1,30 @@
+Create a TS file FirstMCPDemo 
+Create a test for the below steps and create a new key as MCP in Package.json and run the test
+
+Login to the url https://katalon-demo-cura.herokuapp.com/
+Verify the title CURA Healthcare Service
+Click Make Appointment Button
+Enter the Username as John Doe
+Enter the Password as ThisIsNotAPassword
+Click the Login Button
+Verify the header Make Appointment
+Select Facilty dropdown as Hongkong CURA Healthcare center
+Check the checkbox Apply for hospital readmission
+Check the option button Medicaid
+Select the visit date as 28 Feb 2026
+Enter the comment as Appointment for General checkup
+Click the button Book Appointment
+Verify the header as Appointment Confirmation
+----
+Navigate to the CURA Healthcare URL
+Verify page title
+Click Make Appointment button
+Login with credentials (John Doe / ThisIsNotAPassword)
+Verify Make Appointment header
+Select Hongkong CURA Healthcare Center facility
+Check hospital readmission checkbox
+Select Medicaid insurance option
+Pick February 28, 2026 from date picker
+Enter appointment comment
+Click Book Appointment button
+Verify Appointment Confirmation header
