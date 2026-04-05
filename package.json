@@ -11,7 +11,8 @@
     "demo1": "playwright test tests/test-1.spec.ts --headed",
     "make-apt": "playwright test tests/functional/makeapptmt.spec.ts --headed",
     "ele-int": "playwright test tests/demo/elehandling.makeapptmt.spec.ts --headed",
-    "MCP": "playwright test tests/demo/FirstMCPDemo.spec.ts --headed"
+    "MCP": "playwright test tests/demo/FirstMCPDemo.spec.ts --headed",
+    "testdemo": "playwright test tests/AIDemo.spec.ts --headed"
   },
   "devDependencies": {
     "@playwright/test": "^1.57.0",
